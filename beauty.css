@@ -1,0 +1,307 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.beautypage{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    /* max-height:100vh; */
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+ .beautypage .beauty-menu{
+    width:25%;
+    background-image: linear-gradient(to bottom, #e52e71, #ff8a00);
+    height: 100vh;
+    position: fixed;
+}
+.beauty-menu .menu{
+    padding: 60px 60px 15px 60px;
+    width: 16%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    overflow-x: hidden;
+    
+    transition: 0.5s;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+text-align: center;
+}
+ h1{
+    font-weight: 700;
+    font-size: 35px;
+margin: 0;
+    
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+span{
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+ .menu ul{
+    list-style-type: none;
+padding: 0;
+margin-top: 40px;
+}
+.menu ul li{
+    border-bottom: 1px solid #ffffff1c;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 15px;
+}
+.menu .contact-info{
+    width:100%;
+    padding: 10px 0;
+    color: white;
+}
+.contact-info .clock{
+    width:50px;
+    height:50px;
+   font-size: 50px;
+   padding-top: 20px;
+   font-weight: normal;
+    
+}
+.contact-info .phone{
+    width:50px;
+    height:50px;
+font-size: 40px;
+padding-top: 20px;
+
+    
+}
+.contact-info .info{
+    width:150px;
+    font-size: 13px;
+    height:50px;
+    padding-top: 20px;
+}
+h5 , h6{
+    margin: 5px;
+}
+
+
+.beautypage .right{
+    width:75%;
+    
+
+}
+
+ .right .beauty-img{
+   width:100%;
+    overflow: hidden;
+    background-image: url(beautyimg/back01.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+
+}
+.right .services ,.lnews{
+    width:100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: white;
+    display: block;
+}
+h2{
+    font-size: 40px;
+    color:#e52e71;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+    margin: 0;
+    padding-left: 5%;
+}
+.heading-meta{
+    font-size: 18px;
+    font-style: italic;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 5%;
+
+}
+.container{
+    width:90%;margin: auto;
+    display: flex;
+    justify-content: space-between;
+ 
+   padding-top: 4%;
+   
+
+}
+ .container .item{
+width:30%;
+height: 170px;
+
+}
+.item img{
+    width:100%;
+transition: all .9s;
+   
+}
+.con{
+    padding: 30px;
+    position: relative;
+    bottom: 80px;
+    left: -35px;
+    width: 100%;
+  
+    transition: all .8s;
+    text-align: center;
+}
+.con h5{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: none;
+    text-transform: capitalize;
+   
+}
+.item img:hover {
+transform:scale(1.1);
+filter: grayscale(30%);
+
+
+}
+.item:hover .con{
+    bottom:100px;
+}
+.lnews{
+    background-color: #fefafc;
+    height: 75vh;
+}
+.item .desc{
+    padding: 20px;
+    position: relative;
+    top:-4px;
+    background-color: white;
+    height: 115px;
+}
+.desc span{
+    color:#9999;
+    
+}
+.desc a{
+    color: black;
+    font-size: 18px;
+}
+button{
+    width:160px;
+    height:50px;
+    border-radius: 30px;
+    background-color: #e52e71;
+    text-align: center;
+    position: relative;
+  color:white;
+  text-transform: capitalize;
+    left: 383px;
+    top: 175px;
+}
+.banner{
+    width:100%;
+    background-image: url(http://duruthemes.com/demo/html/betty/multipage/images/banner.jpeg);
+background-position: center;
+height: 50vh;
+}
+.container .banner-info{
+width:30%;
+}
+.banner-info h4{
+    padding-bottom: 0;
+    color: #e52e71;
+    font-size: 30px;
+    line-height: 1.2em;
+    margin: 0;
+}
+.banner-info span{
+    font-size: 16px;
+    line-height: 1.75em;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    color: #666;
+}
+.container .client{
+    width:26%;
+    background-color: white;
+    border-radius: 13px;
+    padding:3%;
+    
+}
+.client p{
+    font-size: 16px;
+    color: #666;
+}
+.client .author-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.client h6{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    line-height: 1em;
+}
+.client span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    margin-right: 5px;
+    font-style: normal;
+}
+.brands{
+width:100%;
+
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.container .logo{
+    width:25%;
+}
+
+img:hover{
+    filter: grayscale(100%);
+    transition: all .5s;
+    
+}
+footer{
+    background-color: #e52e71;
+width: 100%;
+text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+footer p{
+    color: rgba(255,255,255,0.9);
+   
+    line-height: 1.5em;
+}
+
+
