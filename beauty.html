@@ -6,11 +6,22 @@
     <title>salon</title>
     <link rel="stylesheet" href="beauty.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
+<link rel="stylesheet" href="mobile.css">
 </head>
 <body>
     <div class="beautypage">
-        <div class="beauty-menu f-left">
+
+        <div id="id1" class="toggle" onclick="menu1()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+    
+        </div>
+        <i class="far fa-times-circle" id="id3" onclick="cross()"></i>
+
+        <!-- <div class="navbar-nav" id="id2"> -->
+        <div class="beauty-menu f-left" id="id2">
+
             <div class="menu">
                 <img src="beautyimg/logo (1).png"style="width:30px" >
                 <h1>
@@ -18,31 +29,20 @@
                 </h1>
                     <span>Center of Beauty</span>
                 
+
+                    
+                
+                
                 <ul>
-                    <li> <a href="#">home</a></li>
+                    <li> <a href="beauty.html"target="#">home</a></li>
                     <li><a href="about.html"
                         target="#">about</a></li>
                     <li><a href="services.html" target="#">services</a></li>
                     <li><a href="">blog</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a href="contact.html"target="#">contact</a></li>
                 </ul>
             
-            <!-- <div class="contact-info">
-                <i class="clock far fa-clock f-left"></i>
-                
-                <div class="info f-right">
-                    <h5>Mon-Fri: 08.00 - 19.00</h5>
-                    <h5>Sunday: Closed</h5>
-                </div>
-            </div> -->
-            <!-- <div class="contact-info">
-                <i class="phone fas fa-mobile-alt f-left"></i>
-
-                <div class="info f-right">
-                    <h5>+1 203-123-0606</h5>
-                    <h5>515 West Ave Norwalk</h5>
-                </div>
-            </div> -->
+            
         </div>
     
         </div>
@@ -187,5 +187,9 @@
 
 </div>
 </div>
+<script src="javascript/style.js">
+
+</script>
+
 </body>
 </html>

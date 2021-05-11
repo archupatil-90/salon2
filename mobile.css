@@ -1,0 +1,232 @@
+@media only screen and (max-width:768px)
+{
+    .container{
+        display: block;
+    }
+.container .item{
+    width: 48%;
+    margin-bottom: 30px;
+    height: 200px;
+    float: left;
+    padding: 0 5px;
+
+}
+   
+    .con{
+        padding: 30px;
+        position: relative;
+        bottom: 100px;
+    }
+    .item:hover .con{
+        bottom:160px;
+    }
+
+    .container .item1{
+        width:100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    button{
+        
+        left: 142px;
+        top: 30px;
+        outline: none;
+        border: none;
+    }
+    .container .banner-info{
+        width:100%;
+    margin-bottom: 20px;
+
+
+
+        }
+        .container .client{
+           
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px grey;
+    margin-bottom: 20px;
+    margin-left: 15px;
+        }
+        .container .logo{
+            width:47%;
+            margin-left: 14px;
+    box-shadow: 0 1px 3px #0000002b;
+    margin-bottom: 20px;
+
+   
+        }
+
+
+
+    /*-------- about----- */
+    .about-sect1{
+  
+        display: block;
+    }
+    .about-sect1 .about-container{
+
+        max-width: 100%;
+     
+    
+    }
+     .about-sect1 .about-container-r{
+        width: 100%;
+        margin-left: 0;
+    
+     
+    }
+    .about-sect .item{
+        width:49%;
+        margin: 0;
+        margin-bottom: 30px;
+        height: 390px;
+    }
+
+    .item .teamimg {
+        margin: auto;
+        border-radius: 50%;
+        float: none;
+        padding-top: 30px;
+        padding-left:0px;
+    }
+    .item .teaminfo {
+        width: 100%;
+        float: none;
+        padding-top: 0px;
+        padding-left: 0;
+        text-align: center;
+    }
+   /* services */
+   .makeup-container{
+    display: block;
+    width: 90%;
+    margin-bottom: 0px;
+    
+}
+.makeup-container .mkitem{
+  
+
+
+width: 47%;
+margin-bottom: 30px;
+height: 160px;
+float: left;
+margin-left: 14px;
+}
+
+/* contact */
+input{
+    
+    width: 100%;
+  
+}
+
+}
+
+@media only screen and (max-width:430px)
+{
+    /* .toggle{
+        display:block;
+    } */
+    #id1{
+        display: block;
+    }
+    #id2{
+        display: none;
+    }
+  
+    .beautypage .beauty-menu{
+        width:50%;
+        text-align: center;
+       
+    }
+    .beautypage .right{
+        width:100%;
+     
+        
+    
+    }
+    .right .beauty-img{
+        background-position: right centre;
+    }
+    .container{
+        display: block;
+    }
+
+    .container .item{
+        width:100%;
+        margin-bottom: 30px;
+        height: 200px;
+    }
+
+
+    .container .client{
+        width:100%;
+        box-sizing: border-box;
+        box-shadow: 0 1px 5px grey;
+margin-bottom: 20px;
+margin-left: 0px;
+    }
+
+    .container .logo{
+        width: 100%;
+box-shadow: 0 1px 3px #0000002b;
+margin-bottom: 20px;
+margin-left: 0px;
+    }
+
+    /* about */
+    .about-sect{
+  
+        display: block;
+    }
+    .about-sect .about-container{
+
+        max-width: 100%;
+     
+    
+    }
+     .about-sect .about-container-r{
+        width: 100%;
+        /* padding: 5px; */
+        margin-left: 0;
+    
+     
+    }
+    .about-sect .item{
+        width:100%;
+        margin: 0;
+        margin-bottom: 30px;
+        height: 370px;
+    }
+
+  /* services */
+  .makeup-container .mkitem{
+  
+
+
+    width: 100%;
+    margin-bottom: 30px;
+    height: 160px;
+    /* float: left; */
+    margin-left: 0px;
+    }
+  /* contact */
+  .contactinfo{
+   
+    display: block;
+
+}
+.contactinfo .contact-container-l{
+    width:100%;
+    }
+
+.contactinfo .contact-container{
+width:100%;
+text-align: center;
+}
+
+}

@@ -10,12 +10,22 @@
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
 
-
+<link rel="stylesheet" href="mobile.css">
 </head>
 
 <body>
     <div class="beautypage">
-        <div class="beauty-menu f-left">
+
+        <div id="id1" class="toggle" onclick="menu1()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+    
+        </div>
+        <i class="far fa-times-circle" id="id3" onclick="cross()"></i>
+
+        <!-- <div class="navbar-nav" id="id2"> -->
+        <div class="beauty-menu f-left" id="id2">
             <div class="menu">
                 <img src="beautyimg/logo (1).png" style="width:30px">
                 <h1>
@@ -24,29 +34,15 @@
                 <span>Center of Beauty</span>
 
                 <ul>
-                    <li> <a href="beauty.html" target="#">home</a></li>
-                    <li><a href="about.html" target="#">about</a></li>
-                    <li><a href="#" target="#">services</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">contact</a></li>
+                    <li> <a href="beauty.html"target="#">home</a></li>
+                    <li><a href="about.html"
+                        target="#">about</a></li>
+                    <li><a href="services.html" target="#">services</a></li>
+                    <li><a href=""target="#">blog</a></li>
+                    <li><a href="contact.html"target="#">contact</a></li>
                 </ul>
 
-                <!-- <div class="contact-info">
-                    <i class="clock far fa-clock f-left"></i>
 
-                    <div class="info f-right">
-                        <h5>Mon-Fri: 08.00 - 19.00</h5>
-                        <h6>Sunday: Closed</h6>
-                    </div>
-                </div>
-                <div class="contact-info">
-                    <i class="phone fas fa-mobile-alt f-left"></i>
-
-                    <div class="info f-right">
-                        <h5>+1 203-123-0606</h5>
-                        <h6>515 West Ave Norwalk</h6>
-                    </div>
-                </div> -->
             </div>
 
         </div>
@@ -124,17 +120,7 @@
 
                         </div>
                     </div>
-                    <div class="mkitem">
-                        <div class="img-area">
-                            <img src="beautyimg/facemakeup.png" class="imgicon">
-                        </div>
-                        <div class="text-area">
-                            <h4>face makeup</h4>
-                            <p>Suspendisse quis odio lobortis laoreet libero quis varius tortor.</p>
-
-                        </div>
-
-                    </div>
+                  
                 </div>
                 <div class="makeup-container">
 
@@ -157,17 +143,33 @@
 
                         </div>
                     </div>
-                    <div class="mkitem">
-                        <div class="img-area">
-                            <img src="beautyimg/dressing.png" class="imgicon">
-                        </div>
-                        <div class="text-area">
-                            <h4>dressing table</h4>
-                            <p>Suspendisse quis odio lobortis laoreet libero quis varius tortor.</p>
+                    
+                </div>
 
-                        </div>
+                <div class="makeup-container">
+
+                <div class="mkitem">
+                    <div class="img-area">
+                        <img src="beautyimg/dressing.png" class="imgicon">
+                    </div>
+                    <div class="text-area">
+                        <h4>dressing table</h4>
+                        <p>Suspendisse quis odio lobortis laoreet libero quis varius tortor.</p>
 
                     </div>
+
+                </div>
+                <div class="mkitem">
+                    <div class="img-area">
+                        <img src="beautyimg/facemakeup.png" class="imgicon">
+                    </div>
+                    <div class="text-area">
+                        <h4>face makeup</h4>
+                        <p>Suspendisse quis odio lobortis laoreet libero quis varius tortor.</p>
+
+                    </div>
+
+                </div>
                 </div>
                 </div>
                 <div class="banner">
@@ -227,6 +229,7 @@
            
         </div>
     </div>
+    <script src="javascript/style.js"></script>
 </body>
 
 </html>
